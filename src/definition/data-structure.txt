@@ -1,0 +1,99 @@
+Please answer the below Data Structure Questions:
+
+why do we need data structure?
+Ans: Data structures are the means by which computers store, organize, and access data. They are necessary, first, to allow for reasonable processor speeds. The more data a computer must handle, the faster its processor must work. As data increases, the processor can fail to keep up unless that data is well organized into a data structure.
+
+What are the various operations that can be performed on different Data Structures?
+Ans:various operations can be performed on different data structures such as creation,insertion,deletion,searching,sorting,traversing,merging,appending & updating. You can create a data structure from your data.Then you can traverse,delete,update,insert,search for data from the data structure.
+
+List out the areas in which data structures are applied extensively?
+Ans: Data structure is important in almost every aspect where data is involved. In general, algorithms that involve efficient data structure is applied in the following areas: numerical analysis, operating system, A.I., compiler design, database management, graphics, and statistical analysis, to name a few.
+
+
+what is an Array?
+Ans: Java Arrays. Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
+
+what is the difference between the Array and ArrayList?
+Ans: The main difference between Array and ArrayList is that Array is a fixed length data structure while ArrayList is a variable length Collection class. Array and ArrayList are commonly used in programming languages such as Java. Array is a data structure that helps to store data elements of the same type.
+
+
+what is LinkedList?
+Ans: Linked List is a part of the Collection framework present in java.util package. This class is an implementation of the LinkedList data structure which is a linear data structure where the elements are not stored in contiguous locations and every element is a separate object with a data part and address part.
+
+How is an Array different from Linked List?
+Ans:Both Linked List and Array are used to store linear data of similar type, but an array consumes contiguous memory locations allocated at compile time, i.e. at the time of declaration of array, while for a linked list, memory is assigned as and when data is added to it, which means at runtime
+
+what is queue?
+Ans: A queue is a linear data structure or a collection in Java that stores elements in a FIFO (First In, First Out) order. The queue collection has two ends i.e. front & rear.
+ The elements are added at the rear and removed from the front
+
+what is stack?
+Ans: is a class that falls under the Collection framework that extends the Vector class. It also implements interfaces List, Collection, Iterable, Cloneable, Serializable. It represents the LIFO stack of objects. Before using the Stack class, we must import the java.util package.
+
+
+what is FIFO and LIFO?
+Ans: First-In, First-Out (FIFO) The First-In, First-Out (FIFO) method assumes that the first unit making its way into inventory–or the oldest inventory–is the sold first.
+     Last-In, First-Out (LIFO) The Last-In, First-Out (LIFO) method assumes that the last or moreunit to arrive in inventory is sold first.
+
+what is the order of complexity?
+Ans:The most common complexity classes are (in ascending order of complexity): O(1), O(log n), O(n), O(n log n), O(n²). Algorithms with constant, logarithmic, linear, and quasilinear time usually lead to an end in a reasonable time for input sizes up to several billion elements
+
+what is the best case to search an element from an array?
+Ans:Basic code on how to search an element in java array as usual will be presented below in order to strengthen your knowledge on the usage and declaration of arrays. Our main goal is to provide a mechanism to search a value through an array of strings.
+
+
+what is the worst case to search an element from an array?
+Ans: what is the worst case to search an element from an array?
+
+what is tree in data structure?
+Ans: A tree data structure is defined as a collection of objects or entities known as nodes that are linked together
+ to represent or simulate hierarchy.
+
+what is graph in data structure?
+Ans: A graph is a non-linear data structure in Java and the following two components define it: A set of a finite number of vertices which we call as nodes. An edge with a finite set of ordered pairs which is in the form (u, v)
+
+what is the difference between the HashTable and HashMap?
+Ans:  3.1. Synchronization. Firstly, Hashtable is thread-safe and can be shared between multiple threads in the application. ...
+    3.2. Null Values. Another difference is null handling. ...
+    3.3. Iteration Over Elements. HashMap uses Iterator to iterate over values, whereas Hashtable has Enumerator for the same. ...
+
+What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+Ans:  The major data structures used are as follows: · RDBMS – Array (i.e. Array of structures) · Network data model – Graph. · Hierarchical data model – Trees.
+
+
+How HashMap works in java?
+Ans:  HashMap works on the principal of hashing.
+      Map.Entry interface - This interface gives a map entry (key-value pair). ...
+      hashCode () - HashMap provides put (key, value) method for storing and get (key) method for retrieving values from HashMap. ...
+      equals () - equals () method is used to compare objects for equality.
+
+What is ArrayIndexOutOfBoundsException in java? When it occurs?
+Ans:An array is a data structure/container/object that stores a fixed-size sequential collection of elements of the same type. The size/length of the array is determined at the time of creation.
+
+    The position of the elements in the array is called an index or subscript. The first element of the array is stored at index 0 and, the second element is at index 1 and so on.
+
+
+What are the different ways of copying an array into another array?
+Ans: There are mainly four different ways to copy all elements of one array into another array in Java. 1. Manually 2. Arrays.copyOf() 3. System.arraycopy() 4. Object.clone() Lets discuss each of them in brief.
+
+
+What is difference between an array and a linked list?
+Ans: The retrieval process is mainly dependent on the pointers here, and they effectively show us the next data location. The Array list uses a null value to mark the end of the data, whereas the Linked list uses a null pointer for this purpose. As soon as the system recognizes null data, the Array list stops the next data retrieval.
+
+What is DFS and BFS?
+Ans:DFS algorithm can be easily adapted to search all solutions to a maze by including nodes on the existing path in the visited set. BFS finds the shortest path to the destination whereas DFS goes to the bottom of a subtree, then backtracks. The full form of BFS is Breadth-First Search while the full form of DFS is Depth First Search.
+
+What is Recursion?
+Ans: Recursion is a basic programming technique you can use in Java, in which a method calls itself to solve some problem. A method that uses this technique is recursive. Many programming problems can be solved only by recursion, and some problems that can be solved by other techniques are better solved by recursion.
+
+
+What are linear and non linear data Structures?
+Ans: Definition. A linear data structure is a type of data structure that arranges the data items in an orderly manner where the elements are attached adjacently while a nonlinear data ...
+     Memory Utilization. ...
+     Levels. ...
+     Implementation. ...
+     Examples. ...
+
+What is Big-(O)-notation?
+Ans: The Big-O Notation is the way we determine how fast any given algorithm is when put through its paces. Consider this scenario: You are typing a search term into Google like “How to Program with Java” or “Java Video Tutorials”, you hit search, and you need to wait about 30 seconds before all of the results
+
